@@ -2,6 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  images: {
+    domains: ['blog.redbus.co'],
+  }
 }
 
 module.exports = nextConfig
